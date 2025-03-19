@@ -1,0 +1,13 @@
+.title {
+    display: flex;
+    text-align: center;
+    background-color: rgb(53, 53, 144);
+    justify-content: center;
+    color: rgb(234, 232, 232);
+    padding: 20px;
+}
+    
+body {
+
+    font-family: 'Arial', sans-serif;
+  }

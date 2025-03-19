@@ -1,0 +1,17 @@
+button   {
+    background-color: #353590;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(234, 232, 232);
+    font-size: medium;
+    font-weight: 400;
+}
+.butaoVerde:hover{
+    background-color: #4cd622cc;
+    transition: 0.5s;
+}
+.butaoVermelho:hover{
+    background-color: #ff0707f3;
+    transition: 0.5s;
+}

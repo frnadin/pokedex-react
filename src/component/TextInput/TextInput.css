@@ -1,0 +1,18 @@
+.container-input {
+    display: flex;
+    flex-direction: row;
+    gap: 5;
+    padding: 40px 0px;
+}
+
+.container-input .text-input {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.container-input .input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: rgb(221, 221, 236);
+}

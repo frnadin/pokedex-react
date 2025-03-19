@@ -1,0 +1,23 @@
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px 20px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}       
+
+select:hover {
+    border-color: #007BFF;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgb(53, 53, 144);
+    outline: none;
+}
