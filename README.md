@@ -1,12 +1,28 @@
-# React + Vite
+# 🧩 PokéDex App
+ 
+Uma aplicação frontend que consome a [PokeAPI](https://pokeapi.co/) para listar e exibir informações dos Pokémon.
+ 
+![Screenshot](https://github.com/user-attachments/assets/b268a20f-9463-4693-826c-ade5c61377d2)
+ 
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Funcionalidades
+ 
+- 🔍 Busca de Pokémon por nome ou ID  
+- 📸 Exibição da imagem, tipo(s), altura, peso e habilidades  
+- 📜 Listagem paginada de Pokémon  
+- 🧠 Detalhes individuais ao clicar em um Pokémon  
+ 
+---
+ 
+## 📡 API Utilizada
+ 
+[PokeAPI](https://pokeapi.co)
+ 
+Exemplo de endpoint usado:
+GET https://pokeapi.co/api/v2/pokemon/{nome_ou_id}
+ 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👨‍💻 Desenvolvido por
+Fernando Gutilla  
+[🔗 GitHub](https://github.com/frnadin)
